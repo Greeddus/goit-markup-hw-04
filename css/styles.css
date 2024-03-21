@@ -208,6 +208,7 @@ img {
   padding: 120px 0;
 }
 .f-container {
+  display: flex;
   width: calc((100% - 3 * 24) / 4);
 }
 .features-list {
