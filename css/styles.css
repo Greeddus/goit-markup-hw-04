@@ -195,7 +195,7 @@ img {
 }
 /*===================FEATURES========================*/
 .features-wrap {
-  display: inline-block;
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 112px;
@@ -215,7 +215,9 @@ img {
   gap: 24px;
 }
 .features-list-items {
-  max-width: 264px;
+  width: 264px;
+  height: 224px;
+
 }
 .features-list-title {
   font-weight: 500;
@@ -232,15 +234,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.features-icon {
-  padding: 24px 100px;
-  background: #f4f4fd;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-  margin-bottom: 8px;
-}
+
 /*===================TEAM========================*/
 .team {
   width: calc((100%-3 * 24) / 4);
